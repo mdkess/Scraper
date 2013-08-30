@@ -56,7 +56,7 @@ def main():
 
     count = 0
 
-    header = {'User-Agent': 'Simple web parser by /u/z4srh - just for fun'}
+    header = {'User-Agent': 'Simple web parser by github.com/mdkess - just for fun'}
 
     while hrefs.__len__() > 0 and count < max_depth:
         parser = MyHTMLParser()
